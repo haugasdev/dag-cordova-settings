@@ -1,0 +1,27 @@
+{
+  "name": "dag-cordova-settings",
+  "version": "0.1",
+  "author": "siimh",
+  "description": "IOS settings for DAG wallet",
+  "cordova": {
+    "id": "dag-cordova-settings",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dagcoin/dag-cordova-settings.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT"
+}

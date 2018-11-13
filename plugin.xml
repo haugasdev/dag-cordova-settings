@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-fiidlo-settings" version="0.1.2" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>Settings</name>
+    <author>Dagcoin</author>
+    <description>Cordova settings file</description>
+    <keywords>cordova, ios</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="UISupportsDocumentBrowser">
+            <true/>
+        </config-file>
+    </platform>
+</plugin>
